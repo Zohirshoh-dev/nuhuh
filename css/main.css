@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 51px;
+}
+
+.logo {
+  padding-right: 99px;
+}
+
+.catalog {
+  display: flex;
+  gap: 45px;
+  padding-right: 80px;
+}
+
+.catalog > p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  transition: 0.5s all;
+}
+
+.catalog > p:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.hdr_btns {
+  display: flex;
+  gap: 25px;
+}
+
+.login {
+  width: 112px;
+  height: 50px;
+  background-color: #3FA72F;
+  border-radius: 133px;
+  text-align: center;
+  transition: 0.5s all;
+}
+
+.login:hover {
+  cursor: pointer;
+  border: solid 1px #3FA72F;
+  background-color: #00ff00;
+}
+
+.login > p {
+  padding-top: 15px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.home {
+  display: flex;
+  padding-top: 169px;
+  padding-bottom: 154px;
+}
+
+.text > h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 80px;
+  padding-top: 60px;
+}
+
+.text > p {
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5C4529;
+  padding-bottom: 77px;
+}
+
+.home_btns {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+
+.tugma1 {
+  width: 232px;
+  height: 74px;
+  background-color: orange;
+  border-radius: 162px;
+  text-align: center;
+}
+
+.tugma1 > p {
+  padding-top: 25px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+.tugma2 {
+  width: 232px;
+  height: 74px;
+  background-color: #3FA72F;
+  border-radius: 162px;
+  text-align: center;
+}
+
+.tugma2 > p {
+  padding-top: 25px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+.colour span {
+  color: orange;
+}
+
+.home2 {
+  display: flex;
+  padding-bottom: 188px;
+}
+
+.colour {
+  font-size: 59px;
+  padding-top: 82px;
+  padding-bottom: 60px;
+}
+
+.home2 > .yozuv > p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5C4529;
+  font-size: 20px;
+  padding-bottom: 122px;
+}
+
+.menu_btn {
+  width: 232px;
+  height: 74px;
+  background-color: orange;
+  border-radius: 162px;
+  text-align: center;
+}
+
+.menu_btn > p {
+  padding-top: 25px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+.menu {
+  padding-bottom: 200px;
+}
+
+.chefs {
+  padding-top: 175px;
+  padding-bottom: 271px;
+}
+
+.info {
+  padding-top: 238px;
+  padding-bottom: 238px;
+}
+
+.burger {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+.tarelka_small {
+  display: none;
+}
+
+.menu_mbl {
+  display: none;
+}
+
+.table_mbl {
+  display: none;
+}
+
+.chef_mbl {
+  display: none;
+}
+
+.customers {
+  display: none;
+}
+
+.ftr {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .catalog {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .burger {
+    display: block;
+    padding-left: 18px;
+  }
+  .home {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .rasm {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    padding-top: 41px;
+  }
+  .home2 {
+    flex-direction: column;
+  }
+  .tarelka_rasm {
+    display: none;
+  }
+  .tarelka_small {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .menu_mbl {
+    display: block;
+  }
+  .table {
+    display: none;
+  }
+  .table_mbl {
+    display: block;
+    padding-top: 62px;
+  }
+  .chefs {
+    display: none;
+  }
+  .chef_mbl {
+    display: block;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .comments {
+    display: none;
+  }
+  .customers {
+    display: block;
+  }
+  .info {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .ftr {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
